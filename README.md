@@ -2,11 +2,7 @@
 
 Welcome to my GoLang Exercises repository! This collection of exercises is designed to help you (and me) improve our Go programming skills through hands-on practice.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Exercises](#exercises)
+## Concepts
   - [Basics](#basics)
   - [Comments](#comments)
   - [Numbers](#numbers)
@@ -41,24 +37,8 @@ Welcome to my GoLang Exercises repository! This collection of exercises is desig
   - [Type Assertion](#type-assertion)
   - [Errors](#errors)
   - [First Class Functions](#first-class-functions)
-- [Working Locally](#working-locally)
-  - [Installing the CLI](#installing-the-cli)
-  - [Configuration](#configuration)
-  - [Downloading the Exercise](#downloading-the-exercise)
-  - [Solving the Exercise](#solving-the-exercise)
-  - [Submitting your Solution](#submitting-your-solution)
-  - [Other CLI Functionality](#other-cli-functionality)
-    - [Seeing all the commands](#seeing-all-the-commands)
-    - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
-# Introduction
-
-This repository contains a series of exercises to help you learn and practice Go programming. 
-Each exercise is self-contained and includes instructions, examples, and tests to guide you through the task.
-
-# Installation
+## Installation
 
 To run these exercises, you need to have Go installed on your machine. You can download and install Go from the official [Go website](https://golang.org/dl/).
 
@@ -79,6 +59,7 @@ exercism configure --token=<your-api-token>
 ```Bash
 exercism download --exercise=<exercise-slug> --track=<track-slug>
 ```
+
 ### Solving the Exercise
 
 The goal of each exercise is to create an implementation that passes all the tests. Each exercise contains the following files:
@@ -95,11 +76,20 @@ Once your solution passes all the tests, you can submit your solution using the 
 exercism submit <implementation_file_paths>
 ````
 
-### Other CLI Functionality
+### Other CLI Functionalities
+ - completion   Generate the autocompletion script for the specified shell
+ - configure    Configure the command-line client.
+ - download     Download an exercise.
+ - help         Help about any command
+ - open         Open an exercise on the website.
+ - prepare      Prepare does setup for Exercism and its tracks.
+ - submit       Submit your solution to an exercise.
+ - test         Run the exercise's tests.
+ - troubleshoot Troubleshoot does a diagnostic self-check.
+ - upgrade      Upgrade to the latest version of the CLI.
+ - version      Version outputs the version of CLI.
+ - workspace    Print out the path to your Exercism workspace.
 
- - exercism help: get the full list of available commands
- - exercism version: verify which version you are on
- - exercism troubleshoot: troubleshoot any issues
 
 
 
