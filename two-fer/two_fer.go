@@ -6,7 +6,7 @@ package twofer
 
 /*
 * ShareWith generates a phrase "One for {name}, one for me."
-* If no name is provided, it defaults to "you".
+* If no name is provided, default string is "you".
 */
 func ShareWith(name string) string {
 	if name == "" {
