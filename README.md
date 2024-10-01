@@ -1,6 +1,6 @@
 # GoLang Exercises
 
-Welcome to my GoLang Exercises repository! This collection of exercises is designed to help you and me to improve our Go programming skills through hands-on practices :)
+Welcome to my GoLang Exercises repository! This collection of exercises is designed to improve Go programming skills through hands-on practices :)
 
 ## Concepts
 
